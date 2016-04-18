@@ -2,12 +2,15 @@
 <style>
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
+   margin-right: auto;
   margin-left: auto;
+ 
 }
 
+.container:after {
+    content: '\a';
+    white-space: pre;
+}
 
 @media (min-width: 768px) {
   .container {
